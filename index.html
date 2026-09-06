@@ -202,6 +202,71 @@
             </div>
         </section>
 
+        <section id="features" class="py-24 border-t border-borderSubtle bg-[#0A0A0A]">
+            <div class="max-w-7xl mx-auto px-6 lg:px-8">
+                <div class="mb-16">
+                    <h2 class="text-3xl lg:text-5xl font-bold mb-4">Core Architecture.</h2>
+                    <p class="text-lg text-textMain/70 max-w-2xl">Engineered for direct, uncompromising access. Honest Recovery bypasses the OS to give you absolute control over your digital forensics workflow.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Feature 1 -->
+                    <div class="bg-surface border border-borderSubtle rounded-2xl p-8 hover:border-borderLight transition-colors">
+                        <div class="w-12 h-12 rounded-full bg-background border border-borderSubtle flex items-center justify-center mb-6">
+                            <i class="ph ph-magnifying-glass-plus text-xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Deep File Carver</h3>
+                        <p class="text-sm text-textMain/70 leading-relaxed">Recovers deleted files directly from raw disk devices using low-level hex signature scanning. Operates at the block level via <code class="font-mono text-[11px] bg-background px-1.5 py-0.5 rounded border border-borderSubtle text-textMain/90">/dev/rdisk</code> access, bypassing the filesystem entirely to find files the OS considers gone.</p>
+                    </div>
+                    
+                    <!-- Feature 2 -->
+                    <div class="bg-surface border border-borderSubtle rounded-2xl p-8 hover:border-borderLight transition-colors">
+                        <div class="w-12 h-12 rounded-full bg-background border border-borderSubtle flex items-center justify-center mb-6">
+                            <i class="ph ph-copy text-xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Data Cloner</h3>
+                        <p class="text-sm text-textMain/70 leading-relaxed">Creates block-level volume replicas using Apple's asr restore engine. Includes a hardware-level boot-volume safety gate that programmatically refuses to erase the running system — the only clone tool that protects you from catastrophic mistakes.</p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="bg-surface border border-borderSubtle rounded-2xl p-8 hover:border-borderLight transition-colors">
+                        <div class="w-12 h-12 rounded-full bg-background border border-borderSubtle flex items-center justify-center mb-6">
+                            <i class="ph ph-file-archive text-xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">AES-256 Archiver</h3>
+                        <p class="text-sm text-textMain/70 leading-relaxed">Packages any folder into a password-protected, compressed Apple Disk Image using 256-bit AES encryption. Password handling is designed to never appear in the system process list, keeping your credentials private even on a shared machine.</p>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="bg-surface border border-borderSubtle rounded-2xl p-8 hover:border-borderLight transition-colors">
+                        <div class="w-12 h-12 rounded-full bg-background border border-borderSubtle flex items-center justify-center mb-6">
+                            <i class="ph ph-device-mobile text-xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">iOS Forensics Engine</h3>
+                        <p class="text-sm text-textMain/70 leading-relaxed">Parses unencrypted local iPhone and iPad backups to extract Contacts, Messages, Call History, and Camera Roll. Includes a live USB extraction mode that can trigger a fresh device backup and immediately parse it — no iTunes required.</p>
+                    </div>
+
+                    <!-- Feature 5 -->
+                    <div class="bg-surface border border-borderSubtle rounded-2xl p-8 hover:border-borderLight transition-colors">
+                        <div class="w-12 h-12 rounded-full bg-background border border-borderSubtle flex items-center justify-center mb-6">
+                            <i class="ph ph-shield-check text-xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Offline License System</h3>
+                        <p class="text-sm text-textMain/70 leading-relaxed">No subscription. No server. No account. License validation happens entirely on-device using cryptographic key verification, meaning the software works permanently without an internet connection.</p>
+                    </div>
+
+                    <!-- Feature 6 -->
+                    <div class="bg-surface border border-borderSubtle rounded-2xl p-8 hover:border-borderLight transition-colors">
+                        <div class="w-12 h-12 rounded-full bg-background border border-borderSubtle flex items-center justify-center mb-6">
+                            <i class="ph ph-terminal-window text-xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Built for Professionals</h3>
+                        <p class="text-sm text-textMain/70 leading-relaxed">Non-sandboxed, Developer ID signed, and notarized for macOS 13 and later. Runs a signed privileged helper for operations that require root access, rather than asking you to run the whole application as administrator.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="scale" class="relative pt-24 pb-0 bg-background overflow-hidden border-t border-borderSubtle min-h-[500px] lg:min-h-[700px] flex flex-col justify-start">
             <!-- Grid background -->
             <div class="absolute inset-0 bg-grid z-0 opacity-30"></div>
